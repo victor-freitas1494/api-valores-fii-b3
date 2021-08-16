@@ -2,7 +2,7 @@ const router_express_fii = require('express')
 const puppeteer = require('puppeteer')
 const router_fii = router_express_fii.Router()
 
-router_fii.get('/api/fii/:fii', async (req, res, next) => {
+router_fii.get('/api/:fii', async (req, res, next) => {
     const browser = await puppeteer.launch()
     const page = await browser.newPage()
     await page.goto('https://www.google.com/search?q='+ req.params.fii)
