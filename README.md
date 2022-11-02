@@ -15,9 +15,12 @@ API dedicada para investimentos e fundos imobiliários que mostram a maior alta 
 - Nodejs
 - Express
 - Puppeteer
+- terminal
 
 ## Usage
 
 ```bash
 app.js
 ```
+
+
